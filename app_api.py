@@ -143,6 +143,7 @@ def main():
         model_name = st.selectbox(
             "Choose a model",
             options=[
+                "amazon/nova-2-lite-v1:free",
                 "meta-llama/llama-3.1-8b-instruct",
                 "qwen/qwen-2.5-7b-instruct",
                 "mistralai/mistral-7b-instruct",
